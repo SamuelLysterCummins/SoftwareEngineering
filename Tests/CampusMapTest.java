@@ -1,3 +1,6 @@
+package Tests;
+
+import Classes.CampusMap;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
