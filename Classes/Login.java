@@ -12,6 +12,6 @@ public class Login {
     }
 
     public boolean validate(String email, String password){
-        return password == emailToPassword.get(email);
+        return password.equals(emailToPassword.get(email));
     }
 }

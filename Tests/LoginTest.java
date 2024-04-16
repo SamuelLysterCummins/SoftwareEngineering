@@ -53,7 +53,7 @@ public class LoginTest {
     public void validateTest(){
         var login = new Login();
 
-        String email = "2010954@wit.ie";
+        String email = "2010954@mail.wit";
         String password = "password123";
 
         assertTrue(login.validate(email, password));
