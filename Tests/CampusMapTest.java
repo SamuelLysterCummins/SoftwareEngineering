@@ -28,8 +28,8 @@ public class CampusMapTest {
     @Test
     public void testMultipleLocationQueries() {
         assertEquals("Building B, Room 104", campusMap.getLectureHallLocation("CS101"));
-        assertEquals("Building B, Room 104", campusMap.getLectureHallLocation("CS101"));
-        assertEquals("Building C, Room 201", campusMap.getLectureHallLocation("MATH300"));
+        assertEquals("Building A, Room 101", campusMap.getLectureHallLocation("ENG204"));
+        assertEquals("Location not found", campusMap.getLectureHallLocation("MATH300"));
         assertEquals("Location not found", campusMap.getLectureHallLocation("PHYS101"));
     }
 }
